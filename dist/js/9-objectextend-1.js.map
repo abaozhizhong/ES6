@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../js/9-objectextend-1.js"],"names":["name","person","console","log"],"mappings":";;AAAA;;;AAGA,IAAIA,OAAK,SAAT;AACA,IAAIC,SAAS,EAACD,UAAD,EAAb;AACAE,QAAQC,GAAR,CAAYF,MAAZ","file":"9-objectextend-1.js","sourcesContent":["/**\r\n * Created by huangjian on 2017/6/11.\r\n */\r\nvar name='abaozhi';\r\nvar person = {name};\r\nconsole.log(person);\r\n\r\n"]}
