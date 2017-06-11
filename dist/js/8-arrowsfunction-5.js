@@ -75,4 +75,3 @@ var h = function h(a) {
 };
 
 h('it is for test ')("!");
-//# sourceMappingURL=8-arrowsfunction-5.js.map

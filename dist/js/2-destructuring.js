@@ -229,9 +229,12 @@ var _iteratorError = undefined;
 
 try {
     for (var _iterator = map[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-        var _step$value = _slicedToArray(_step.value, 2),
-            key = _step$value[0],
-            value = _step$value[1];
+        var _ref7 = _step.value;
+
+        var _ref8 = _slicedToArray(_ref7, 2);
+
+        var key = _ref8[0];
+        var value = _ref8[1];
 
         console.log(typeof key === 'undefined' ? 'undefined' : _typeof(key));
         console.log(key + " is:" + value);
@@ -257,9 +260,12 @@ var _iteratorError2 = undefined;
 
 try {
     for (var _iterator2 = map[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-        var _step2$value = _slicedToArray(_step2.value, 2),
-            _a = _step2$value[0],
-            b = _step2$value[1];
+        var _ref9 = _step2.value;
+
+        var _ref10 = _slicedToArray(_ref9, 2);
+
+        var _a = _ref10[0];
+        var b = _ref10[1];
 
         console.log('-------------');
         console.log(_a);
@@ -285,11 +291,14 @@ var _iteratorError3 = undefined;
 
 try {
     for (var _iterator3 = map[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
-        var _step3$value = _slicedToArray(_step3.value, 2),
-            b = _step3$value[1];
+        var _ref11 = _step3.value;
+
+        var _ref12 = _slicedToArray(_ref11, 2);
+
+        var _b = _ref12[1];
 
         console.log('-------------');
-        console.log(b);
+        console.log(_b);
     }
 } catch (err) {
     _didIteratorError3 = true;
@@ -305,4 +314,3 @@ try {
         }
     }
 }
-//# sourceMappingURL=2-destructuring.js.map

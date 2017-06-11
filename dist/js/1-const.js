@@ -19,4 +19,3 @@ var a = 10; //全局
 console.log(window.a);
 var b = 11; //局部
 console.log(window.b);
-//# sourceMappingURL=1-const.js.map

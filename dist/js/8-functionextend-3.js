@@ -79,4 +79,3 @@ console.log(rest);
 var nodelist = document.querySelectorAll('li'); // 其实Array.form() 也是可以的 方式nodelist 对象都可以这样转
 var arraylist = [].concat(_toConsumableArray(nodelist));
 console.log(arraylist);
-//# sourceMappingURL=8-functionextend-3.js.map

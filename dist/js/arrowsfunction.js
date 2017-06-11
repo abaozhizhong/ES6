@@ -4,6 +4,7 @@
  * Created by huangjian on 2017/5/31.
  */
 //箭头函数
+
 var objo = { name: "abaozhi", age: 23 };
 var a = function a(b) {
     return b;
@@ -75,4 +76,5 @@ var h = function h(a) {
 };
 
 h('it is for test ')("!");
+//# sourceMappingURL=arrowsfunction.js.map
 //# sourceMappingURL=arrowsfunction.js.map

@@ -17,4 +17,3 @@ var b = function b() {
 };
 
 b();
-//# sourceMappingURL=8-functionextend-7.js.map

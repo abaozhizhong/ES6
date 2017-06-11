@@ -12,4 +12,3 @@ console.log(abaozhi.name);
 
 var fun = function fun() {};
 console.log(fun.name);
-//# sourceMappingURL=8-functionextend-4.js.map

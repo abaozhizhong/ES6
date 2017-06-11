@@ -60,4 +60,3 @@ function fun3() {
 }
 fun3(1, 2, 3);
 fun3({ a: 1 }, { a: 2 });
-//# sourceMappingURL=8-functionextend-2.js.map
