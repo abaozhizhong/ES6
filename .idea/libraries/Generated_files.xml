@@ -3,11 +3,17 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/match.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/11-symbol-1.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/search.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/10-symbol-2.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/flags.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/10-symbol-1.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/constructor.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/13-set和map-1.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/replace.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/11-proxyreflect-1.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/set.js" />
+        <item url="file://$PROJECT_DIR$/dist/js/11-proxy-1.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/index.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/object/get-own-property-descriptors.js" />
         <item url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/object/get-own-property-symbols.js" />
@@ -587,11 +593,17 @@
       <root url="file://$PROJECT_DIR$/dist/node_modules/caniuse-lite/data/regions/JO.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/caniuse-lite/data/regions/IS.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/match.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/11-symbol-1.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/search.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/10-symbol-2.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/flags.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/10-symbol-1.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/constructor.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/13-set和map-1.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/replace.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/11-proxyreflect-1.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/set.js" />
+      <root url="file://$PROJECT_DIR$/dist/js/11-proxy-1.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/regexp/index.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/object/get-own-property-descriptors.js" />
       <root url="file://$PROJECT_DIR$/dist/node_modules/babel-plugin-transform-function-bind/node_modules/core-js/fn/object/get-own-property-symbols.js" />
