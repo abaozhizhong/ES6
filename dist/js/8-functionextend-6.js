@@ -64,4 +64,3 @@ obj2tell.call(obj, 20, 30);
 // const mynum = [10,20];
 // fun.apply(obj,mynum);
 // obj::fun(...[1,2,3]);
-//# sourceMappingURL=8-functionextend-6.js.map

@@ -71,4 +71,3 @@ m1({ x: 11, y: 12 });
 //函数的length 属性
 
 //作用域 反正就是局部  存在生成的先后顺序关系
-//# sourceMappingURL=8-functionextend-1.js.map
