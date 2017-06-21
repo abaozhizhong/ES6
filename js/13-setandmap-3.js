@@ -102,3 +102,57 @@ console.log(w);
 //遍历方法 forEach  entries  keys (与set差不多) values()
 
 //数据结构的转换
+// map 互转 数组
+var toArray = [...w];//或者Array.from();
+console.log(toArray);
+
+
+w.set('name','abaozhi');
+
+
+
+// map转为对象 (前提是全都是字符串)
+function mapToObj(map) {
+    let obj = Object.create(null);
+    console.log(obj);
+    for(let [k,v] of map ){
+        obj[k] = v;
+    }
+    return obj
+}
+
+var toObj = mapToObj(w);
+console.log(toObj);
+
+//对象转map
+function objToMap(obj) {
+    let map  =  new Map();
+    for(let i in obj){
+        map.set(i,obj[i]);
+    }
+    return map
+}
+var toMap = objToMap({'name':'bz'});
+console.log(toMap);
+
+//map 转JSON
+//均是字符串情况下
+function mapToJson(map) {
+    //显示先转对象再转字符串
+    let json = mapToObj(map);
+    return JSON.stringify(json)
+}
+
+console.log(mapToJson(w));
+console.log(JSON.parse(mapToJson(w)));
+
+//有非字符串的情况下 转为数组json
+function mapToJsonArray(map) {
+    let jsonArray = objToMap([...map]);
+    return jsonArray
+}
+
+
+
+//JSON 转map
+
