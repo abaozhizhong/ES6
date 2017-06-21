@@ -16,6 +16,38 @@ var obj = {
     age:18,
     sex:'men'
 }
-for(let item of obj){
-    // console.log(item);//obj[Symbol.iterator] is not a function
+// for(let item of obj){
+//     // console.log(item);//obj[Symbol.iterator] is not a function
+// }
+
+var li = document.querySelectorAll('li');
+for(let i of li){
+    console.log(i);
 }
+
+
+var obj = {
+    0:"abaozhi",
+    1:"100",
+    2:'man',
+    length:3,
+    [Symbol.iterator]:[][Symbol.iterator]
+}
+
+for(let i of obj){
+    console.log(i);
+}
+
+
+//就是没动 for in 能遍历对象 为什么这么麻烦用 of 
+var nObj ={
+    name:'baab',
+    age:200,
+    sex:'men'
+}
+
+for(var i in nObj){
+    console.log(i);
+    console.log(nObj[i]);
+}
+
