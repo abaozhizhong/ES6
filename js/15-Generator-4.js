@@ -73,3 +73,40 @@ try{
 }
 k.next();
 
+
+
+var nGen = function * gen() {
+    yield console.log('---hellow');
+    yield console.log('---world');
+}
+var j = nGen();
+console.log('---',j.next());
+try{
+    throw new Error();
+}catch(e){
+    console.log('---',j.next());
+
+}
+
+//
+console.log('\\\\\\\\\\\\');
+function *foo() {
+    var x = yield 10;
+    var y =  x.upperCase();
+    yield  100;
+    yield 1000;
+}
+var myfoo = foo();
+myfoo.next();
+
+try {
+    myfoo.next();
+}catch (e){
+    console.log(e);
+}
+console.log('....');
+console.log(myfoo.next(20));
+console.log(myfoo.next(10));
+
+
+

@@ -26,7 +26,7 @@ console.log(fun.next());
 })()
 
 //yield在表达式中必须用中括号包住
-console.log('我用yield:'+ (yield 123));
+// console.log('我用yield:'+ (yield 123));
 
 
 //与Iterator接口关系
