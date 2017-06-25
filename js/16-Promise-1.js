@@ -4,21 +4,6 @@
 /*
  * 16.1Promise对象的
  * */
-//创建一个promise实例
-// var promise = new Promise(function (reslove,reject) {
-// //    some code
-//     if(){
-//         reslove(value);
-//     }else{
-//         reject(error);
-//     }
-// })
-//
-// promise.than(function () {
-//     console.log('调用成功');
-// },function(){
-//     console.log('调用失败');
-// })
 
 //简单应用例子
 function timeout(ms) {
@@ -32,7 +17,7 @@ timeout(5000).then((value) => {
 })
 
 //异步加载图片的例子
-var src = 'https:timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498208890776&di=3346afa8ca60f73155b1ee7825199ae8&imgtype=0&src=http%3A%2F%2Fpic.qjimage.com%2Fnature009%2Fhigh%2Fnature1457196hahhahahaha.jpg';
+var src = 'https:timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498208890776&di=3346afa8ca60f73155b1ee7825199ae8&imgtype=0&src=http%3A%2F%2Fpic.qjimage.com%2Fnature009%2Fhigh%2Fnature1457196.jpg';
 let mp = new Promise((resolve,reject)=>{
     let img = new Image();
     img.onload = function () {
@@ -91,13 +76,37 @@ var p1 = new Promise(function (reslove,reject) {
     setTimeout(() => reject(new Error('fail')),3000);
 })
 
-var p2 = new Promise(function (reslove,reject) {
-    setTimeout(() => reslove(p1),0);
+
+// 理解promise
+//1 状态的转变  resolved pendding rejected
+var yourPromise = new Promise(function(resloved,rejected){
+    let ms = 2000;
+    setTimeout(function () {
+        resloved('我是要成功啦')
+    },ms);
+    setTimeout(function () {
+        rejected('我是要失败了有木有')
+    },ms-1000)
+});
+yourPromise.then(function (data) {
+    console.log(data);
+},function (data) {
+    console.log(data);
+
+})
+//2 异步等待另一个执行结果再执行
+var p1 = new Promise(function (resloved,rejected) {
+    setTimeout(function () {
+        resloved("true");
+        console.log(p1);
+    },5000)
 })
 
-p2.then(result => {
-    console.log(result);
-})
-//     .catch(error  => {
-//     console.log(error);
-// })
+var p2 = new Promise(function (resloved, rejected) {
+    resloved(p1);
+});
+
+p2.then(function (data) {
+    console.log('p2的参数------------');
+    console.log(data);
+});
