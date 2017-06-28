@@ -23,10 +23,8 @@ var fun = f();
 
 function *foo(x) {
     var y = 2*(yield (x+1));
-    console.log(y);
     var z = yield (y/3);
-    console.log(z);
-    return (x+y+z);
+    return (x+y+z);//5+24+13
 }
 var a = foo(5);
 a.next();//第一次调用next()能识别到yield
@@ -41,6 +39,7 @@ a.next();//第一次调用next()能识别到yield
 // console.log(
 //     a.next()
 // );
+
 
 var b = foo(5);
 console.log(
