@@ -2,11 +2,11 @@
  * Created by bz on 2017/6/28.
  */
 /*
-*  17.4 co模块
-* */
-var thunckity  = require('thunkify');
-var  fs = require('fs');
-var  co = require('co');
+ *  17.4 co模块
+ * */
+var thunckity = require('thunkify');
+var fs = require('fs');
+var co = require('co');
 var readfile = thunckity(fs.readFile);
 
 function *gen() {
