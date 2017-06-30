@@ -1,4 +1,4 @@
 {
   "presets": ["env"],
-  "plugins": ["transform-function-bind"]
+  "plugins": ["syntax-async-generators","syntax-async-generators"]
 }
